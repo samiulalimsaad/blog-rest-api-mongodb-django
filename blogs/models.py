@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Post(models.Model):
-    _id = models.CharField(max_length=200)
+    pid = models.CharField(max_length=200, primary_key=True)
     title = models.CharField(max_length=200)
     content = models.TextField()
     pub_date = models.DateTimeField(auto_now_add=True)
