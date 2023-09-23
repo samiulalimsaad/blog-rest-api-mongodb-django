@@ -84,10 +84,9 @@ DATABASES = {
         "NAME": "django-app",
         "ENFORCE_SCHEMA": False,
         "CLIENT": {
-            "host": "mongodb+srv://saadnbiuraj:750297saad@cluster0.6qurt.gcp.mongodb.net/django_app?retryWrites=true&w=majority"
+            "host": "mongodb+srv://username:password@cluster0.6qurt.gcp.mongodb.net/django_app?retryWrites=true&w=majority"
         },
     }
-    # "default": "mongodb+srv://saadnbiuraj:750297saad@cluster0.6qurt.gcp.mongodb.net/django_app?retryWrites=true&w=majority"
 }
 
 
